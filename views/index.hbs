@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<p>Bienvenid@ a la app {{title}}</p>
+
+<a href="/auth/login">Iniciar sesión</a> <br>
+<a href="/auth/logout">Cerrar sesión</a> <br>
+<a href="/auth/signup">Registrarse</a> <br>
+
+{{#if user}}
+<a href="/auth/private-page">Acceder a zona privada de usuario</a>
+{{/if}}
